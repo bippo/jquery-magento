@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Bippo
+ * JQuery module 
+ *
+ * @category   jquery
+ * @package    bippojquery
+ * @copyright  Copyright (c) 2011 Bippo.co.id
+ */
+-->
+
+<config>
+    <modules>
+        <Bippo_MostViewedProducts>
+            <version>1.0.0</version>
+        </Bippo_MostViewedProducts>
+    </modules>
+    <global>
+        <models/>
+            
+        <blocks/>
+            
+        <helpers/>
+          
+    </global>
+        
+    <default/>
+    <frontend>
+        <layout>
+            <updates>
+                <bippojquery>
+                    <file>bippojquery.xml</file>
+                </bippojquery>
+            </updates>
+        </layout>
+        
+    </frontend>
+
+</config>

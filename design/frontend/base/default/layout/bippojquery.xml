@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Bippo
+ * JQuery module 
+ *
+ * @category   Bippo
+ * @package    JQuery-Magento
+ * @copyright  Copyright (c) 2011 Bippo.co.id
+ */
+-->
+<layout version="0.1.0">
+<!--
+Default layout, loads most of the pages
+-->
+<default>
+	<reference name="head">
+		<action method="addJs"><script>jquery-magento/jquery-1.6.2.min.js</script></action>
+	</reference>
+	 <reference name="after_body_start">
+	 	<block type="core/template" template="bippojquery/noscript.phtml"></block>
+	 </reference>
+</default>
