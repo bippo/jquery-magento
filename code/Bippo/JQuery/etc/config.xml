@@ -12,9 +12,9 @@
 
 <config>
     <modules>
-        <Bippo_MostViewedProducts>
+        <Bippo_JQuery>
             <version>1.0.0</version>
-        </Bippo_MostViewedProducts>
+        </Bippo_JQuery>
     </modules>
     <global>
         <models/>
