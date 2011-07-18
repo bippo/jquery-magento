@@ -21,3 +21,4 @@ Default layout, loads most of the pages
 	 	<block type="core/template" template="bippojquery/noscript.phtml"></block>
 	 </reference>
 </default>
+</layout>
