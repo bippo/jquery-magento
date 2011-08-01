@@ -15,7 +15,7 @@ Default layout, loads most of the pages
 -->
 <default>
 	<reference name="head">
-		<action method="addJs"><script>jquery-magento/jquery-1.6.2.min.js</script></action>
+		<action method="addItem"><type>skin_js</type><name>js/bippojquery/jquery-1.6.2.min.js</name></action>
 	</reference>
 	 <reference name="after_body_start">
 	 	<block type="core/template" template="bippojquery/noscript.phtml"></block>
