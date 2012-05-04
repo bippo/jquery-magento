@@ -1,0 +1,14 @@
+h1. Bippo JQuery extension for Magento
+
+You must put : (after @<body>@ )
+
+bc. <?php echo $this->getChildHtml('after_body_start') ?>
+
+in :
+
+1. 1column.phtml
+2. 2columns-left.phtml
+3. 2columns-right.phtml
+4. 3columns.phtml
+
+Enhanced by Rully-Bippo [@Bippo Commerce](http://www.bippo.co.id) July 14th, 2011.
